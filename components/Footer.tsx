@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2 text-white">
               <Globe className="h-6 w-6 text-corporate-blue" />
-              <span className="text-xl font-bold">SPGlobal</span>
+              <span className="text-xl font-bold">D P GLOBAL</span>
             </div>
             <p className="text-sm leading-relaxed text-slate-400">
               {COMPANY_INFO.tagline}

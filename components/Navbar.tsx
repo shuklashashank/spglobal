@@ -43,7 +43,7 @@ const Navbar: React.FC = () => {
               <Globe className={`h-8 w-8 ${scrolled ? 'text-white' : 'text-corporate-blue'}`} />
             </div>
             <span className={`text-2xl font-bold tracking-tight ${scrolled ? 'text-corporate-900' : 'text-white'}`}>
-              SPGlobal
+              D P GLOBAL
             </span>
           </Link>
 

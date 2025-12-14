@@ -29,7 +29,7 @@ const Home: React.FC = () => {
           </h1>
           <p className="mt-4 text-xl text-slate-200 max-w-3xl mx-auto mb-10 leading-relaxed">
             Reliable. Innovative. Global. <br/>
-            Partner with SPGlobal for logistics solutions that drive your business forward.
+            Partner with D P GLOBAL for logistics solutions that drive your business forward.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link 
@@ -70,7 +70,7 @@ const Home: React.FC = () => {
                 />
                 <div>
                   <p className="font-bold text-slate-900 text-lg">Vijay Shukla</p>
-                  <p className="text-slate-500">Founder & CEO, SPGlobal</p>
+                  <p className="text-slate-500">Founder & CEO, D P GLOBAL</p>
                 </div>
               </div>
             </div>
@@ -114,7 +114,7 @@ const Home: React.FC = () => {
       <section className="py-20 bg-corporate-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold">Why Choose SPGlobal?</h2>
+            <h2 className="text-3xl font-bold">Why Choose D P GLOBAL?</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             <div className="text-center">

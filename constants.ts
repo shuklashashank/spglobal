@@ -10,15 +10,15 @@ import {
 import { Service, PressRelease, NewsArticle } from './types';
 
 export const COMPANY_INFO = {
-  name: "SPGlobal",
+  name: "D P GLOBAL",
   owner: "Vijay Shukla",
   tagline: "Navigating Tomorrow's Supply Chain, Today.",
-  intro: "Under the visionary leadership of Vijay Shukla, SPGlobal redefines logistics through reliability, technological integration, and deep market expertise. We don't just move cargo; we optimize your entire value chain.",
+  intro: "Under the visionary leadership of Vijay Shukla, D P GLOBAL redefines logistics through reliability, technological integration, and deep market expertise. We don't just move cargo; we optimize your entire value chain.",
   address: "1204, Trade Tower, Bandra-Kurla Complex, Mumbai, MH 400051, India",
   emails: {
-    sales: "sales@spglobal.com",
-    careers: "careers@spglobal.com",
-    general: "info@spglobal.com",
+    sales: "sales@dpglobal.com",
+    careers: "careers@dpglobal.com",
+    general: "info@dpglobal.com",
   },
   phone: "+91 22 4567 8900"
 };
@@ -77,7 +77,7 @@ export const SERVICES: Service[] = [
 export const PRESS_RELEASES: PressRelease[] = [
   {
     id: '1',
-    title: "SPGlobal Announces New European Logistics Hub",
+    title: "D P GLOBAL Announces New European Logistics Hub",
     date: "October 15, 2023",
     summary: "Expanding our footprint to better serve the Euro-Asian trade corridor with a state-of-the-art facility in Rotterdam."
   },
@@ -89,7 +89,7 @@ export const PRESS_RELEASES: PressRelease[] = [
   },
   {
     id: '3',
-    title: "SPGlobal Achieves ISO 9001:2015 Certification",
+    title: "D P GLOBAL Achieves ISO 9001:2015 Certification",
     date: "August 05, 2023",
     summary: "Reaffirming our commitment to quality management and operational excellence."
   }

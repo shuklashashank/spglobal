@@ -112,7 +112,7 @@ const Contact: React.FC = () => {
                   <Send className="h-8 w-8 text-green-600" />
                 </div>
                 <h3 className="text-2xl font-bold text-slate-900 mb-2">Message Sent!</h3>
-                <p className="text-slate-600">Thank you for contacting SPGlobal. Our team will get back to you shortly.</p>
+                <p className="text-slate-600">Thank you for contacting D P GLOBAL. Our team will get back to you shortly.</p>
                 <button 
                   onClick={() => setSubmitted(false)}
                   className="mt-8 text-corporate-blue font-medium hover:underline"

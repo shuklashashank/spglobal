@@ -11,7 +11,7 @@ const Media: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-extrabold text-slate-900 mb-4">Media & Press</h1>
           <p className="text-lg text-slate-600 max-w-2xl">
-            Latest updates, press releases, and insights from SPGlobal and the world of logistics.
+            Latest updates, press releases, and insights from D P GLOBAL and the world of logistics.
           </p>
         </div>
       </div>
@@ -94,7 +94,7 @@ const Media: React.FC = () => {
                        <FileText className="h-5 w-5 text-white" />
                     </div>
                     <div>
-                      <span className="block font-medium">About SPGlobal</span>
+                      <span className="block font-medium">About D P GLOBAL</span>
                       <span className="block text-xs text-slate-400">PDF • 1.1 MB</span>
                     </div>
                   </button>
@@ -109,8 +109,8 @@ const Media: React.FC = () => {
               </p>
               <div className="p-4 bg-slate-50 rounded-lg border border-slate-100">
                 <p className="font-bold text-slate-900">Communications Team</p>
-                <a href="mailto:media@spglobal.com" className="text-corporate-blue text-sm hover:underline block mt-1">
-                  media@spglobal.com
+                <a href="mailto:media@dpglobal.com" className="text-corporate-blue text-sm hover:underline block mt-1">
+                  media@dpglobal.com
                 </a>
                 <p className="text-slate-500 text-sm mt-1">+91 22 4567 8999</p>
               </div>

@@ -6,7 +6,7 @@ export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
       // Base path for GitHub Pages (project site). Update to your repo name.
-      base: '/spglobal/',
+      base: '/dpglobal/',
       server: {
         port: 3000,
         host: '0.0.0.0',
