@@ -39,7 +39,7 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className={`p-2 rounded-lg ${scrolled ? 'bg-corporate-blue' : 'bg-white'}`}>
+            <div className={`p-2 rounded-lg ${scrolled ? 'bg-corporate-blue' : 'bg-white/10 backdrop-blur-md'}`}>
               <Globe className={`h-8 w-8 ${scrolled ? 'text-white' : 'text-corporate-blue'}`} />
             </div>
             <span className={`text-2xl font-bold tracking-tight ${scrolled ? 'text-corporate-900' : 'text-white'}`}>
