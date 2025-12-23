@@ -39,10 +39,10 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className={`p-2 rounded-lg ${scrolled ? 'bg-corporate-blue' : 'bg-white'}`}>
+            <div className={`p-2 rounded-lg ${scrolled ? 'bg-corporate-blue' : 'bg-white/10 backdrop-blur-md'}`}>
               <Globe className={`h-8 w-8 ${scrolled ? 'text-white' : 'text-corporate-blue'}`} />
             </div>
-            <span className={`text-2xl font-bold tracking-tight ${scrolled ? 'text-corporate-900' : 'text-white'}`}>
+            <span className={`text-2xl font-bold tracking-tight ${scrolled ? 'text-slate-900' : 'text-white'}`}>
               D P GLOBAL
             </span>
           </Link>
@@ -55,8 +55,8 @@ const Navbar: React.FC = () => {
                 to={link.path}
                 className={`text-sm font-medium transition-colors duration-200 ${
                   scrolled 
-                    ? isActive(link.path) ? 'text-corporate-blue font-bold' : 'text-slate-600 hover:text-corporate-blue'
-                    : isActive(link.path) ? 'text-corporate-gold font-bold' : 'text-slate-200 hover:text-white'
+                    ? isActive(link.path) ? 'text-blue-600 font-bold' : 'text-slate-600 hover:text-blue-600'
+                    : isActive(link.path) ? 'text-amber-400 font-bold' : 'text-white hover:text-slate-200'
                 }`}
               >
                 {link.name}
@@ -78,7 +78,7 @@ const Navbar: React.FC = () => {
           <div className="md:hidden flex items-center">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className={`p-2 rounded-md ${scrolled ? 'text-slate-700' : 'text-white'}`}
+              className={`p-2 rounded-md ${scrolled ? 'text-slate-900' : 'text-white'}`}
             >
               {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </button>
